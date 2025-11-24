@@ -23,7 +23,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <sonar.organization>myorg</sonar.organization>
-        <sonar.host.url>http://localhost:9000</sonar.host.url>
+        <sonar.host.url>http://213.199.42.57:9002</sonar.host.url>
     </properties>
 
     <dependencies>
