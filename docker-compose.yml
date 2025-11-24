@@ -52,8 +52,8 @@ services:
     container_name: backend-simple
     environment:
       SERVER_PORT: ${SERVER_PORT:-8080}
-      SONAR_PROJECT_KEY: ${SONAR_PROJECT_KEY:-backend-simple}
-      SONAR_PROJECT_NAME: ${SONAR_PROJECT_NAME:-Backend Simple}
+      SONAR_PROJECT_KEY: ${SONAR_PROJECT_KEY:-Backend-Student-36}
+      SONAR_PROJECT_NAME: ${SONAR_PROJECT_NAME:-backend-simple}
       SONAR_HOST_URL: ${SONAR_HOST_URL:-http://sonarqube:9000}
     ports:
       - "${SERVER_PORT:-8080}:8080"
